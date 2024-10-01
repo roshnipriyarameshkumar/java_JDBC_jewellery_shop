@@ -1,0 +1,7 @@
+package com.roshMain;
+
+class InvalidPasswordException extends Exception {
+    public InvalidPasswordException(String message) {
+        super(message);
+    }
+}
